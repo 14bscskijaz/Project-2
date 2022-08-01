@@ -51,7 +51,7 @@ input,select{
     height: 15vh;
     font-size: 2.25vh;
     background-color: white;
-    padding-left: 1vw;
+    padding: 0 1vw;
 
 }
 
