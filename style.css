@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    line-height: 20px;
+    color: black;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 3vh 4vw;
+}
+
+header{
+    margin-bottom: 4vh;
+}
+
+h1{
+    font-size: 57px;
+    display: inline-block;
+}
+
+h2{
+    font-size: 36px;
+    display: inline-block;
+    color: #04175A;
+    margin-left: 1vw;
+}
+
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3vw;
+    row-gap: 2vh;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+input,select{
+    margin: 0;
+    margin-top: 1vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 15vh;
+    font-size: 2.25vh;
+    background-color: white;
+    padding-left: 1vw;
+
+}
+
+form input, form select{
+    height: 6vh;
+}
+
+form .input-box{
+    margin: 0;
+}
+
+input::-webkit-file-upload-button{
+    margin-top: 1.75vh;
+}
+
+button{
+    float: right;
+    background-color: #FF0000;
+    color: white;
+    border-radius: 5px;
+    line-height: 8px;
+    font-size: 3vh;
+    padding: 2vh 1vw;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+    border: none;
+}
